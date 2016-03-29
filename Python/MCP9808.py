@@ -10,7 +10,7 @@ import time
 # Get I2C bus
 bus = smbus.SMBus(1)
 
-MCP9808 address, 0x18(24)
+# MCP9808 address, 0x18(24)
 # Select configuration register, 0x01(1)
 #		0x0000(00)	Continuous conversion mode, Power-up default
 config = [0x00, 0x00]
