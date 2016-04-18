@@ -62,4 +62,18 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+
+$>gcc MCP9808.c -o MCP9808
+
+Run the c program.
+
+$>./MCP9808
+
+
 #####The code output is the temperature reading in degree celsius and fahrenheit.
