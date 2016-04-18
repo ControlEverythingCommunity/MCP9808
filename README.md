@@ -68,12 +68,12 @@ https://dashboard.particle.io/user/logs
 Download (or git pull) the code in Beaglebone Black.
 
 Compile the c program.
-
+```cpp
 $>gcc MCP9808.c -o MCP9808
-
+```
 Run the c program.
-
+```cpp
 $>./MCP9808
-
+```
 
 #####The code output is the temperature reading in degree celsius and fahrenheit.
